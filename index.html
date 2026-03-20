@@ -57,6 +57,13 @@ body {
     margin-bottom: 8px;
 }
 
+.icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+
 .skill {
     display: inline-block;
     background: #2f5d50;
@@ -138,6 +145,15 @@ li {
     transform: translateY(0);
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 </style>
 </head>
 
@@ -153,9 +169,18 @@ li {
         <div class="ex-role">ex Senior Data Analyst</div>
 
         <div class="section-title">Contacts</div>
-        <div class="contact">📧 tkacheva.anastasi@gmail.com</div>
+        <div class="contact">
+            <a target="_blank" href="mailto:tkacheva.anastasi@gmail.com">
+                tkacheva.anastasi@gmail.com
+            </a>
+        </div>
         <div class="contact">📍 Yerevan, Armenia</div>
-        <div class="contact">📱 +374 55 695196</div>
+        <div class="contact">
+            <img src="telegram-svgrepo-com.svg" class="icon">
+            <a target="_blank" href="https://t.me/tkanastasi">
+                @tkanastasi
+            </a>
+        </div>
 
         <div class="section-title">Skills</div>
         <div class="skill">Data Processing — Expert</div><br>
@@ -164,7 +189,7 @@ li {
         <div class="skill">UI Accuracy — Advanced</div>
 
         <div class="section-title">Languages</div>
-        <div class="lang">English — B1</div><br>
+        <div class="lang">English — A2/B1</div><br>
         <div class="lang">Russian — Native</div>
         
         <img src="office.jpg" class="profile-photo">
