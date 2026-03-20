@@ -15,6 +15,13 @@ export const Content = () => {
     <ContentWrapper>
       <SectionTitle>Professional summary</SectionTitle>
 
+      <div>
+        <strong>Signal Dashboard</strong><br />
+        <a href="https://tkanastasi.github.io/resume/projects/signal-dashboard/" target="_blank">
+          View Project
+        </a>
+      </div>
+
       <Summary>
         Frontend Web developer with a background in Senior Data Analysis,
         specializing in precise UI implementation and ensuring data consistency.
